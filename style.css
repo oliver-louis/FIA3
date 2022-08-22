@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap');
+
+navbar-toggler {
+  float: right;
+}
+
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("index-bg-blur.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  color: #FFFFFF;
+}
+
+.btn-mast {
+  width: 50% !important;
+}
+
+
+body, html {
+    height: 100%;
+    background-size: 100%;
+    font-family: 'Inter', sans-serif !important;
+  }
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-img {
+    min-height: 380px;
+    position: relative;
+  }
+  
+
+.btn {
+    background-color: #ffd900 !important;
+    color: rgb(0, 0, 0);
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+
+.btn-test {
+  width: 100%;
+}
+
+h1 {
+    text-align: center !important;
+}
+
+error {
+    text-align: center !important;
+    color: red;
+}
+
+content {
+    height: 100%;
+    margin: 10px !important;
+}
